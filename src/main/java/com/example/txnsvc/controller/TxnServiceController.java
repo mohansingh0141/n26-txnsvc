@@ -37,7 +37,10 @@ public class TxnServiceController {
             response.setStatus(HttpServletResponse.SC_NO_CONTENT);
             return;
         }
-        response.setStatus(HttpServletResponse.SC_CREATED);
+        else {
+            response.setStatus(HttpServletResponse.SC_CREATED);
+        }
+
 
     }
 
