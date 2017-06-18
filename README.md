@@ -5,7 +5,7 @@ To build this app run
 mvn clean package
 ```
 
-Please note this step may take time , as time delay is simulated for some tests
+Please note this step may take time , as time delay is simulated for some tests.
 It should finish in about 3-4 minutes.
 
 
